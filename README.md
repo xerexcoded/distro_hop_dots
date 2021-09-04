@@ -7,4 +7,5 @@ from 5.13.13arch1-1
 
 ### Buys a USD1k+ machine :--->
 ### only to bloat it with it 107476 files , well this is it , isn't it ?
-![alt text](s1.png)
+
+![alt text](Screenshot-2021-09-04_23:26:51.png)
