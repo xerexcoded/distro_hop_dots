@@ -3,8 +3,8 @@ add_newline = false
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]      # The name of the module we are configuring is "character"
-success_symbol = "[➜](bold green)"      # The "symbol" segment is being set to "➜"
-error_symbol = "✗"
+success_symbol = "[ ->](bold green)"      # The "symbol" segment is being set to "➜"
+error_symbol = "[ !](bold red)"
 
 
 # Disable the package module, hiding it from the prompt completely
@@ -44,7 +44,7 @@ conflicted = "🏳"
 ahead = "🏎💨"
 behind = "😰"
 diverged = "😵"
-untracked = "🤷‍"
+untracked = "untracked"
 stashed = "📦"
 modified = "📝"
 renamed = "👅"
@@ -60,7 +60,3 @@ format = " took [$duration]($style)"
 
 [rust]
 format = "via [⚙️ $version ](red bold) "
-
-[python]
-
-python_binary = ["./venv/bin/python", "python", "python3", "python2"]
