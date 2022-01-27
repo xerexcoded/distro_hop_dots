@@ -1,3 +1,11 @@
+
+#exports
+set --export XDG_SESSION_TYPE "wayland"
+set --export XDG_CURRENT_DESKTOP "sway"
+set --export MOZ_ENABLE_WAYLAND 1
+set --export MOZ_USE_XINPUT2 1
+
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
@@ -9,11 +17,9 @@ alias ls "lsd"
 alias cat "bat"
 alias ssh "kitty +kitten ssh" 
 alias du "dust"
-set PATH $HOME/.emacs.d/bin $PATH
-set -x MOZ_ENABLE_WAYLAND 1
+alias hst "history | fzf | wl-copy "
 
-
-
+set GUIX_PROFILE "/home/xeera/.config/guix/current"
 
 
 
